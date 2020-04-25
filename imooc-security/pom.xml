@@ -22,7 +22,7 @@
         <!--<spring-platform.version>Cairo-SR7</spring-platform.version>-->
         <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <security.oauth.version>2.3.4.RELEASE</security.oauth.version>
+        <security.oauth.version>2.3.6.RELEASE</security.oauth.version>
         <security.oauth.auto.version>2.1.2.RELEASE</security.oauth.auto.version>
         <spring.session.version>1.2.0.RELEASE</spring.session.version>
         <spring.boot.undertow>2.1.2.RELEASE</spring.boot.undertow>
