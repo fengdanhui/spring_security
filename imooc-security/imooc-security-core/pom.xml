@@ -16,7 +16,15 @@
     </properties>
 
     <dependencies>
+<<<<<<< HEAD
 
+=======
+        <!--稳定版本，替代spring security bom内置-->
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+        </dependency>
+>>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
@@ -25,7 +33,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
         <!--驱动-->
         <dependency>
             <groupId>mysql</groupId>
@@ -33,11 +44,14 @@
             <version>${mysql.connector.version}</version>
         </dependency>
 
+<<<<<<< HEAD
         <!--稳定版本，替代spring security bom内置-->
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
         </dependency>
+=======
+>>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
         <!--social-->
         <dependency>
             <groupId>org.springframework.security.oauth.boot</groupId>
@@ -61,5 +75,8 @@
 
     </dependencies>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
 </project>

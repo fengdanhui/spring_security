@@ -18,7 +18,39 @@
             <version>${imooc.security.version}</version>
         </dependency>
 
+<<<<<<< HEAD
     </dependencies>
 
+=======
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <!--排除tomcat依赖-->
+                <exclusion>
+                    <artifactId>spring-boot-starer-tomcat</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!--排除tomcat依赖，添加undertow容器-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--maven打springboot jar包插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+>>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
 
 </project>
