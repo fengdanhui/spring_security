@@ -28,19 +28,19 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addInterceptor(timeInterceptor);
     }
 
-//    @Bean
-//    public FilterRegistrationBean timeFilter() {
-//        FilterRegistrationBean registrationBean = new FilterRegistrationBean();
-//        TimeFilter timeFilter = new TimeFilter();
-//        registrationBean.setFilter(timeFilter);
-//        /**
-//         * 配置方式，指定filter在哪些url时起作用
-//         */
-//        List<String> urls = new ArrayList<>();
-//        //所有url都会起作用
-//        urls.add("/*");
-//        registrationBean.setUrlPatterns(urls);
-//        return registrationBean;
-//
-//    }
+    @Bean
+    public FilterRegistrationBean timeFilter() {
+        FilterRegistrationBean registrationBean = new FilterRegistrationBean();
+        TimeFilter timeFilter = new TimeFilter();
+        registrationBean.setFilter(timeFilter);
+        /**
+         * 配置方式，指定filter在哪些url时起作用
+         */
+        List<String> urls = new ArrayList<>();
+        //所有url都会起作用
+        urls.add("/*");
+        registrationBean.setUrlPatterns(urls);
+        return registrationBean;
+
+    }
 }

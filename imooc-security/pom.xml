@@ -25,10 +25,6 @@
         <security.oauth.version>2.3.4.RELEASE</security.oauth.version>
         <security.oauth.auto.version>2.1.2.RELEASE</security.oauth.auto.version>
         <spring.session.version>1.2.0.RELEASE</spring.session.version>
-<<<<<<< HEAD
-    </properties>
-
-=======
         <spring.boot.undertow>2.1.2.RELEASE</spring.boot.undertow>
     </properties>
 
@@ -45,7 +41,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
->>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
 
     <dependencyManagement>
         <dependencies>
@@ -91,11 +86,6 @@
                 <artifactId>spring-session</artifactId>
                 <version>${spring.session.version}</version>
             </dependency>
-<<<<<<< HEAD
-        </dependencies>
-    </dependencyManagement>
-    <build>
-=======
             <!--排除tomcat依赖，添加undertow容器-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -122,7 +112,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
->>>>>>> 619fd83976bb4c9dfa80cd929b77cfb36322351a
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

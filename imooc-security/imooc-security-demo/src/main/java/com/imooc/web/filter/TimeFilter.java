@@ -10,7 +10,7 @@ import java.util.Date;
  * @date 2020/4/20
  * @Component 过滤器起作用
  */
-@Component
+//@Component
 public class TimeFilter implements Filter {
 
     @Override
