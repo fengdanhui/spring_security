@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78732825-4c27-4dd4-9181-fe3e08a8cf80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/immoc/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/async/AsyncController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/async/AsyncController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/filter/TimeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/filter/TimeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/interceptor/TimeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/interceptor/TimeInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/src/test/java/com/imooc/web/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/src/test/java/com/imooc/web/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/async/AsyncController.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/async/AsyncController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/filter/TimeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/filter/TimeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/interceptor/TimeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/classes/com/imooc/web/interceptor/TimeInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-security-demo/target/test-classes/com/imooc/web/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-security-demo/target/test-classes/com/imooc/web/controller/UserControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="78732825-4c27-4dd4-9181-fe3e08a8cf80" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/imooc-security-core/target/" />
@@ -56,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/aspect/TimeAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="254">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,7 +355,7 @@
       <workItem from="1588748025197" duration="6945000" />
       <workItem from="1588815280841" duration="10921000" />
       <workItem from="1588902622890" duration="7148000" />
-      <workItem from="1588987093273" duration="4601000" />
+      <workItem from="1588987093273" duration="4904000" />
     </task>
     <servers />
   </component>
@@ -409,12 +392,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125059000" />
+    <option name="totallyTimeSpent" value="125362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="234" y="66" width="246" height="602" id="Project" order="0" visible="true" weight="0.4720121" />
+      <window_info active="true" content_ui="combo" x="234" y="66" width="246" height="602" id="Project" order="0" visible="true" weight="0.26399395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -782,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-security-demo/src/main/java/com/imooc/web/aspect/TimeAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="254">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
