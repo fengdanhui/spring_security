@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>imooc-secority-browser</artifactId>
+    <artifactId>imooc-security-browser</artifactId>
 
     <dependencies>
         <dependency>

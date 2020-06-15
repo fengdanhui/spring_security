@@ -4,9 +4,15 @@ import com.fasterxml.jackson.annotation.JsonView;
 import com.imooc.dto.User;
 import com.imooc.dto.UserQueryCondition;
 import com.imooc.exception.UserNotExistException;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +28,14 @@ import java.util.List;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+
+    @GetMapping("/me")
+    public Object getCurrentUser(@AuthenticationPrincipal UserDetails userDetails /* Authentication authentication*/) {
+        return userDetails;
+//        return authentication;
+//        return SecurityContextHolder.getContext().getAuthentication();
+    }
+
     /**
      * 3.4用户创建请求
      * 传递参数不为空校验（不进方法体）：@Valid 和 @NotBlank配合使用
@@ -42,6 +56,7 @@ public class UserController {
         return user;
     }
     /**
+     *
      * 3.5修改请求
      */
     @PutMapping("/{id:\\d+}")
@@ -92,6 +107,7 @@ public class UserController {
 //    @RequestMapping(value = "/user", method = RequestMethod.GET)
     @GetMapping
     @JsonView(User.UserSimpleView.class)
+    @ApiOperation(value = "用户查询服务")
     public List<User> query(UserQueryCondition condition, @PageableDefault(page = 2, size = 17, sort = "username,asc") Pageable pageable) {
         System.out.println(ReflectionToStringBuilder.toString(condition));
         System.out.println(pageable.getPageSize());
@@ -111,12 +127,15 @@ public class UserController {
 //    @RequestMapping(value = "/user/{id:\\d+}", method = RequestMethod.GET)
     @GetMapping("/{id:\\d+}")
     @JsonView(User.UserDetailView.class)
-    public User getInfo(@PathVariable String id) {
+    public User getInfo(@ApiParam("用户id") @PathVariable String id) {
 
         /**
          * 抛出异常
          */
 //        throw new RuntimeException("user not exist");
+//        RuntimeException user_not_exist = new RuntimeException("user not exist");
+//        return user_not_exist.getMessage();
+
 //        throw new UserNotExistException(id);
         /**
          * 1.过滤器拦截
