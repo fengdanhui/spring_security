@@ -12,7 +12,7 @@
     <artifactId>imooc-security-core</artifactId>
 
     <properties>
-        <mysql.connector.version>8.0.15</mysql.connector.version>
+        <mysql.connector.version>8.0.16</mysql.connector.version>
     </properties>
 
     <dependencies>
